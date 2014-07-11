@@ -1,0 +1,16 @@
+http://www.applicationprivacy.org/platform-requirements/microsoft/
+http://www.applicationprivacy.org/blackberry/
+http://www.applicationprivacy.org/platform-requirements/apple/
+http://www.applicationprivacy.org/platform-requirements/android/
+http://www.applicationprivacy.org/amazon-appstore/
+
+https://developer.mozilla.org/en-US/Marketplace/Publishing/Privacy_policies
+
+https://www.iubenda.com/blog/2013/11/29/privacy-policy-firefox-os-apps-marketplace/
+http://www.iubenda.com/blog/2013/06/14/privacy-policy-for-windows-phone-apps/
+http://www.iubenda.com/blog/2013/06/13/privacy-policy-for-android-app/
+http://www.iubenda.com/blog/2013/06/14/privacy-policy-for-ios-apps/
+
+Link to the actual guides and maybe actual places
+
+When guidance is out, ask @davidrstites why the link only displays on actual app store, not in pages

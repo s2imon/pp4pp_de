@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Firefox Marketplace Privacy Policy</title>
+  <script type="text/javascript" src="js/jquery-min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/guide-grid.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body ios-guide clearfix">
+  <section class="header">
+    <div class="container clearfix">
+      <h1 class="guide">
+      <i class="fa fa-child"></i>
+      <span>How to Add a Privacy Policy to the App Store - Guide for iOS Developers</span>
+      </h1>
+    </div>
+  </section>
+  <section id="article" class="clearfix">
+    <div class="container clearfix">
+      <div class="text">
+      
+      <p>Welcome. This page mainly answers the <strong>question how and why you should add a privacy policy to your Firefox OS app</strong>.</p>
+      <ul>
+      <li>If you want to read a more general <a href="http://www.iubenda.com/blog/2013/06/10/the-need-for-privacy-policies-in-mobile-apps-an-overview/">overview of privacy policies in mobile apps</a> then you can read that here</li>
+      <li>If you want to skip all that and just use our <a href="http://iubenda.com/en/mobile/?utm_source=blog&amp;utm_medium=post&amp;utm_campaign=ios_guide">generator to help you make a privacy policy</a> for your Firefox OS app then follow me</li>
+      <li>Read an experience report by <a href="https://www.iubenda.com/blog/2013/11/18/urlist-manana-firefox-os-privacy-policy/">Urlist that has built an app for Firefox OS instead</a></li>
+      </ul>
+      <p><a href="https://www.iubenda.com/blog/wp-content/uploads/2014/02/firefox_os_privacy_policy11.png"><img class="box" alt="firefox_os_privacy_policy" src="https://www.iubenda.com/blog/wp-content/uploads/2014/02/firefox_os_privacy_policy11.png" width="630" height="400"></a></p>
+      <p>Since the launch of our&nbsp;<a href="http://iubenda.com/en/mobile/?utm_source=blog&amp;utm_medium=post&amp;utm_campaign=ios_guide">mobile apps privacy policy generator</a>&nbsp;we have been tracking changes in the mobile space and compiled guides that talk about the most important things regarding privacy policies on that particular OS: the regulations, the terms by the app stores and more helpful tips.</p>
+      <ul>
+      <li>You can find a guide for iOS here: <a href="http://www.iubenda.com/blog/2013/06/14/privacy-policy-for-ios-apps/">Privacy Policy for iOS Apps</a></li>
+      <li>You can find a similar privacy policy guide for Android here: <a href="http://www.iubenda.com/blog/2013/06/13/privacy-policy-for-android-app/">Privacy Policy for Android Apps</a></li>
+      <li>You can find a similar privacy policy guide for Windows Phone here: <a href="http://www.iubenda.com/blog/2013/06/14/privacy-policy-for-windows-phone-apps/">Privacy Policy for Windows Phone Apps</a></li>
+      <li>You can also find a similar privacy policy guide for BlackBerry here: <a href="http://www.iubenda.com/blog/2013/08/26/privacy-policy-blackberry-apps/">Privacy Policy for BlackBerry Apps</a></li>
+      </ul>
+      <p>Let's say <strong>I want to include a privacy policy into my Firefox OS application</strong>: what do I need to do?</p>
+      <div class="well well-large well-iubenda">
+      <h2>In Short</h2>
+      <p>We have a slightly different flow in place for mobile privacy policies than for the web version:</p>
+      <ul>
+      <li><a href="http://iubenda.com/en/mobile/">Use our generator</a> for mobile apps;</li>
+      <li>Add all the clauses you need for your app to your privacy policy and then:
+      <ol>
+      <li>Embed it into your app or link to it from the app;</li>
+      <li>Possibly link to it from the app store;</li>
+      <li>Possibly link to it from your website;</li>
+      <ul>
+      <li><a href="https://www.iubenda.com/blog/2014/02/07/privacy-policy-app-store-guide-link/">Read here how to properly add a privacy policy to a mobile app</a></li>
+      </ul>
+      </ol>
+      </li>
+      <li>Be happy.</li>
+      </ul>
+      </div>
+      <h3>1) Do I have to include a privacy policy in my Firefox OS app?</h3>
+      <ol>
+      <li>Well, that depends on what the app is doing. But consider the fact, that you can never be wrong including a link or a full page view of your privacy policy. It is however very likely that you are <a href="http://www.iubenda.com/blog/2013/06/10/the-need-for-privacy-policies-in-mobile-apps-an-overview/">required by law to include a privacy policy</a> into your iOS application. Easy CHECK: <strong>Am I collecting/storing/sharing personal information</strong> like email, names or sensitive data like payments info or using a third party service that accesses my info?</li>
+      <li>You are likely using a third party service in your app that requires you to add a privacy policy to your app. Additionally to a legal requirement it is often an additional prerequisite to use a specific service. Check in your service provider's terms. A very popular third party service that requires you to post a <a href="http://www.google.com/analytics/terms/us.html">privacy policy in their TOS</a> is Google Analytics (they also have a mobile solution).</li>
+      </ol>
+      <h3>2) Am I required by Mozilla's Firefox Marketplace to post a privacy policy?</h3>
+      <p>Luckily there are no ambiguities about this topic. In the <a href="https://marketplace.firefox.com/developers/docs/policies/agreement">Firefox Marketplace Developer Agreement</a> you are asked to provide a privacy policy for your app under <strong><em>Privacy-Related Obligations</em></strong>:</p>
+      <blockquote><p>You agree to provide end users with a legally adequate privacy notice that accurately describes any collection, use or disclosure of information provided by end users. All Apps are required to have a privacy policy. Add-ons are required to have a privacy policy if any information about the user or usage of an Add-on is collected or transmitted outside of the user’s device on which the Add-on is installed. You represent and warrant that any information you are provided from Mozilla about users will be used solely in accordance with a user’s consent and your privacy policy.</p>
+      <p>You agree to ensure that any advertising presented to end users of your Marketplace Content complies with all requirements of these Terms. For example, (i) embedded advertising and your use of data derived from such advertising must comply with applicable law; (ii) embedded advertising must not contain any “spyware,” “malware” or harmful code and must not cause injury to any person or damage to any property; and (iii) you must provide meaningful notice and choice for any tracking that leads to you or third parties tailoring advertisements or promotions to users.</p></blockquote>
+      <h3>3) How do I add/edit my privacy policy on the Firefox Marketplace?</h3>
+      <p>This section is for the link to your privacy policy on the app store/Marketplace and not in the actual app.</p>
+      <p><a href="https://marketplace.firefox.com/app/twitter?"><img class="box" alt="firefox_marketplace_privacy_policy_link" src="https://www.iubenda.com/blog/wp-content/uploads/2014/02/firefox_marketplace_privacy_policy_link1.png" width="630" height="auto"></a></p>
+      <p>This really isn't hard to find. There is a <strong>link form for a privacy policy URL when you submit your app</strong> for review. Fill that in.</p>
+      <p>To be thorough, here is the complete process you have to go through until you can copy-paste your privacy policy link (<a href="https://developer.mozilla.org/en-US/docs/Mozilla/Marketplace/Submitting_an_app">copied from the official documentation</a>):</p>
+      <ol>
+      <li>Click the&nbsp;<em>Submit An App</em>&nbsp;button.</li>
+      <li>Review the Developer Agreement and click&nbsp;<em>Agree and Continue</em>.</li>
+      <li>Choose whether your app will be&nbsp;<em>Free&nbsp;</em>or&nbsp;<em>Paid</em>.</li>
+      <li>Select the devices which your app is compatible with.</li>
+      <li>Provide the location of your app
+      <ol>
+      <li>If your app is a hosted app, enter the location on your server of the&nbsp;<a href="https://developer.mozilla.org/en-US/docs/Web/Apps/Manifest">app manifest</a>&nbsp;for your app (this must be a full URL), and click&nbsp;<em>Validate</em>.
+      <ul>
+      <li>If the app manifest validates, click&nbsp;<em>Continue</em>.</li>
+      <li>If there are validation errors, correct them and revalidate the manifest.</li>
+      </ul>
+      </li>
+      <li>If your app is a packaged app, click the&nbsp;<em>Packaged</em>&nbsp;tab and select the zip file that you want to upload.
+      <ul>
+      <li>The package will upload automatically. If your app validates, click&nbsp;<em>Continue</em>.</li>
+      <li>If there are validation errors, correct them and re-upload your package.</li>
+      </ul>
+      </li>
+      </ol>
+      </li>
+      <li>Add the required details for your app's detail page, and any other details you want to add, and click&nbsp;<em>Continue</em>. Note that the <strong>required fields</strong> are the<em>&nbsp;brief summary</em>,&nbsp;<em>categories</em>,&nbsp;<strong>privacy policy</strong>,&nbsp;<em>device types</em>, and a&nbsp;<em>screenshot</em>. But a homepage, support site, and support email are highly recommended. The multi-line text fields support HTML, so you can structure and link the text.</li>
+      </ol>
+      <h3>4) An example privacy policy for Firefox OS apps?</h3>
+      <p>A lot of people ask for sample privacy policies for apps. Let's start with the legal minimum requirements. A good starting point is the California Online Privacy Protection act (CalOPPA), and even better Europe's minimum requirements since they are more refined:</p>
+      <h4>CalOPPA minimum requirements:</h4>
+      <p>Provide info about the personally identifiable information (PII) like:</p>
+      <ul>
+      <li>a description of the types of PII collected and disclosed by the operator;</li>
+      <li>a description of the process by which a consumer can access and request changes to his or her PII, if available;</li>
+      <li>a description of the process by which the operator will notify consumers of material changes to the privacy policy; and</li>
+      <li>an effective date</li>
+      </ul>
+      <h4>EU Privacy Directives minimum requirements:</h4>
+      <p>Provide a readable, understandable and easily accessible privacy policy, which at a minimum informs users about:</p>
+      <ul>
+      <li>who you are (identity and contact details),</li>
+      <li>what precise categories of personal data the app wants to collect and process,</li>
+      <li>why the data processing is necessary (for what precise purposes),</li>
+      <li>whether data will be disclosed to third parties (not just a generic but a specific<br>
+      description to whom the data will be disclosed),</li>
+      <li>what rights users have, in terms of withdrawal of consent and deletion of data</li>
+      </ul>
+      <p>You can easily google for an <a href="https://www.google.com/search?q=privacy+policy+for+Firefox+OS+app"><strong>example privacy policy for X</strong></a> but chances are you won't find anything ready-made that fits the bill.</p>
+      <p><strong>Helpful docs</strong>:</p>
+      <p>1. <a href="http://oag.ca.gov/sites/all/files/pdfs/privacy/privacy_on_the_go.pdf">Privacy on the Go</a></p>
+      <p>2. <a href="http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2013/wp202_en.pdf">Article 29 Working Group</a></p>
+      <h3>Our Approach of Generating an iOS Privacy Policy</h3>
+      <p>So here's where <a href="http://iubenda.com/en/mobile/?utm_source=blog&amp;utm_medium=post&amp;utm_campaign=ios_guide">iubenda's privacy policy generator</a> will come in very handy:</p>
+      <p>1) Define the services and categories of data collection your app is making use of.</p>
+      <p>2) Add the services (and categories of data collection like "access to address book") you are using to your policy and it will generate the full text privacy policy in a condensed easily scannable fashion as well as an entire document your users can read if they want.</p>
+      <p>3) You can either link to your policy or embed the text into your app.</p>
+      
+      </div>
+      <img class="image image-2" src="images/screenshot_test.png">
+
+      <div class="pagination"><a href="ios-guide.html"><i class="fa fa-angle-left" data-toggle="tooltip" data-placement="left" title="Guide for iOS Developers"></i> <span>Guide for iOS Developers</span></a> <a href="play-guide"><i class="fa fa-angle-right" data-toggle="tooltip" data-placement="right" title="Guide for Android Developers"></i> <span>Guide for Android Developers</span></a></div>
+
+      <div class="goal"><p>The goal of this guide is to give you the right tools to make and place your privacy policy correctly in many languages. <br /><a href="https://github.com/s2imon/pp4pp">Submit a push request anytime</a>.</p><p>Read about <a href="http://s2imon.github.io/pp4pp">where else you should place the privacy policy.</a></p></div>
+
+      <p class="info"><a href="http://twitter.com/s2imon">Made by @s2imon</a> &middot; <a href="pp.html">Privacy Policy</a></p>
+      <p class="microcopy">hosted &middot; self-updating &middot; crafted by lawyers &middot; multi-language &middot; fast</p>
+    </div>
+  </section>
+  <section id="footer-cta">
+    <div class="iubenda-cta clearfix">
+      <a class="cta" href="http://iubenda.com">Run your privacy policy on auto-pilot /w iubenda</a>
+    </div>
+  </section>
+
+<script type="text/javascript">			
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash,
+	    $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+	$("[data-toggle=tooltip").tooltip();
+});
+</script>
+</body>
+</html>
