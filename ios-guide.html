@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
-  <title>Apple Store Privacy Policy</title>
+  <title>Apple Store Datenschutzerklärung</title>
   <script type="text/javascript" src="js/jquery-min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/guide-grid.css">
   <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -22,7 +22,7 @@
     <div class="container clearfix">
       <h1 class="guide">
       <i class="fa fa-apple"></i>
-      <span>How to Add a Privacy Policy to the App Store - Guide for iOS Developers</span>
+      <span>Wie man eine Datenschutzerklärung zum App Store hinzufügt - Anleitung für iOS Entwickler</span>
       </h1>
     </div>
   </section>
@@ -30,22 +30,22 @@
     <div class="container clearfix">
       <div class="text">
  			
- 			<p>Updated: 30.06.2014</p>
- 			<p>This page answers the <strong>question why and how you should add a privacy policy to your iOS app and how you can add it to the App Store</strong>.</p>
+ 			<p>Letztes Update: 28.07.2014</p>
+ 			<p>Diese Seite beantwortet die Frage <strong>wie und warum man eine Datenschutzerklärung zu einer iOS App hinzufügen sollte und wie diese zum App Store hinzugefügt werden kann</strong>.</p>
  			
- 			<img src="images/test_cartoon.png" alt="How to update the privacy policy on the App Store" />
+ 			<!--<img src="images/test_cartoon.png" alt="How to update the privacy policy on the App Store" />-->
  			
- 			<p>For an overview of the legal requirements head back <a href="https://s2imon.github.io/pp4pp/">to the main page</a>.</p>
+ 			<p>Eine Übersicht zu den juristischen Details <a href="https://s2imon.github.io/pp4pp_de/">finden sich auf der Hauptseite</a>.</p>
  			
- 			<h3>1) Am I required by Apple's App Store to post a privacy policy?</h3>
- 			<p>There is no flat out prerequisite to have a privacy policy to submit your app to the app store with a couple of exceptions:</p>
+ 			<h3>1) Verpflichtet mich der Apple App Store zu einer Datenschutzerklärung?</h3>
+ 			<p>Es gibt keine Blankoverpflichtung von der Seite von Apple. Dafür gibt es klare Ansagen bezüglich folgender Kategorien:</p>
  			<ul class="fa-ul">
- 				<li><i class="fa-li fa fa-circle"></i> if your apps are targeting kids under the age of 13 (as of iOS 7);</li>
- 				<li><i class="fa-li fa fa-circle"></i> apps that link against HealthKit (as of iOS 8);</li>
- 				<li><i class="fa-li fa fa-circle"></i> apps that link against HomeKit (as of iOS 8)</li>
- 				<li><i class="fa-li fa fa-circle"></i> apps that are third party keyboards (as of iOS 8)</li>
+ 				<li><i class="fa-li fa fa-circle"></i> falls die App Kinder under 13 Jahren bedient (ab iOS 7);</li>
+ 				<li><i class="fa-li fa fa-circle"></i> Apps welche auf HealthKit verlinken (ab iOS 8);</li>
+ 				<li><i class="fa-li fa fa-circle"></i> Apps welche auf HomeKit verlinken (ab iOS 8)</li>
+ 				<li><i class="fa-li fa fa-circle"></i> Apps die Drittanbieter Tastaturen sind (ab iOS 8)</li>
  			</ul>
- 			<p>As of iOS 8 Apple has worked hard on privacy for users and therefore here's an excerpt from slides called <a href="http://goo.gl/ZAAJyJ">User Privacy on iOS 8 and OS X</a>:</p>
+ 			<p>Für iOS 8 hat Apple einiges an Arbeit für Datenschutz für Nutzer getan und deshalb gibt es hier einen kleinen Einblick  in eine Präsentation mit dem Namen <a href="http://goo.gl/ZAAJyJ">User Privacy on iOS 8 and OS X</a>:</p>
  			<div class="bq important_text">
  			  <h4>From User Privacy on iOS 8 and OS X</h4>
  			 	<p>Important for all apps to have one, required for some app categories.</p>
@@ -56,52 +56,52 @@
  			    <li>x Kids</li>
  			 	</ul>
  			</div>
- 			<p>Apple's docs state in general that you have to follow relevant privacy laws. Some excerpts of these docs (iOS Developer Program License Agreement, Apple App Store Review Requirement) are printed below.</p>
+ 			<p>Die relevanten Apple Dokumente sagen allgemein, dass Datenschutzgesetze befolgt werden müssen. Einige Ausschnitte sollen hier weitergegeben werden (iOS Developer Program License Agreement, Apple App Store Review Requirement).</p>
  			<div class="bq important_text">
- 			  <h4>From the Apple App Store Review Requirement Docs</h4>
+ 			  <h4>Von den "Apple App Store Review Requirement Docs"</h4>
  			  <p>"Apps cannot transmit data about a user without obtaining the user's prior permission and providing the user with access to information about how and where the data will be used" (<em>Section 17.1 of the App Store Review Guidelines</em>).</p>
  			</div>
- 			<p>So while they do not directly require you to conspicuously post a privacy policy in any case, there is a clear indication that you have to inform your users about data processing.</p>
+ 			<p>Mit anderen Worten gibt es keine Datenschutzerklärungsregel die in jedem Fall gilt, aber es gibt einen klaren Hinweis dass Apps mit Datenverarbeitung eine solche auch angeben müssen.</p>
  			<div class="bq important_text">
- 			  <h4>From the Docs II</h4>
+ 			  <h4>Von denselben Docs, II</h4>
  			  <p>Developers must provide clear and complete information to users regarding collection, use and disclosure of user or device data. (<em>Section 3.3.10 of the iOS Developer Program License Agreement</em>)</p>
  			</div>
  			<div class="bq important_text">
- 			  <h4>About including URLs into the submission process</h4>
+ 			  <h4>Über das Eingeben von Urls im Submission Process</h4>
  			  <p>Apps should have all included URLs fully functional when you submit it for review, such as support and privacy policy URLs. (<em>Section 3.12 of the App Store Review Guidelines</em>)</p>
  			</div>
  			<div class="bq important_text">
- 			  <h4>About apps for kids</h4>
+ 			  <h4>Über Apps für Kinder</h4>
  			  <p>Apps that collect, transmit, or have the capability to share personal information (e.g. name, address, email, location, photos, videos, drawings, persistent identifiers, the ability to chat, or other personal data) from a minor must comply with applicable children's privacy statutes</p>
  			</div>
  			
- 			<p>The latest paragraph about kids' privacy is mainly a hint at COPPA, a regulation that tries to protect the privacy of children in the United States (which is an acronym for Children's Online Privacy Protection Act)</p>
+ 			<p>Der letzte Abschnitt über Kinder-Datenschutz ist vor allem eine Konzession an COPPA, ein Gesetz das die Daten von Kindern in den Vereinigten Staaten schützen will (dies ist eine Abkürzung für Children's Online Privacy Protection Act)</p>
 
- 			<h3>2) How do I add/edit my privacy policy on the App Store?</h3>
+ 			<h3>2) Wie kann ich meine DSE zum App Store hinzufügen/ändern?</h3>
  			
- 			<p>This section is for the link to your privacy policy on the App Store and not in the actual app. There is a <strong>link form for privacy policy URLs when you submit your app</strong> for review. Fill that in.</p>
+ 			<p>Dieser Abschnitt bezeichnet den App Store Link und nicht den Link in der App. Es gibt ein <strong>Eingabeformular für Datenschutz-Urls beim Einreichen der App</strong> zum Review Prozess. Man fülle dieses Formular aus.</p>
  			
- 			<img class="image image-2" alt="This is where you add the privacy policy on the App Store" src="images/add_privacy_policy_app_store.png" width="auto" height="auto">
+ 			<img class="image image-2" alt="Hier gehört die Datenschutzerklärung hin im App Store" src="images/add_privacy_policy_app_store.png" width="auto" height="auto">
  			
- 			<p>When you visit the app page that the store generates for you, e.g.</p>
+ 			<p>Beim Aufrufen der App Seite welche der Store danach generiert, also</p>
  			<p><strong>https://itunes.apple.com/app/idxXxxXXXetc,</strong></p>
- 			<p>you will not find that privacy policy link (yet). This is only the case however, because Apple decided not to show it there yet, for some reason. You will find the link when opening the app in an iTunes window:</p>
- 			<a href="https://itunes.apple.com/us/app/wordbase-strategic-word-game/id777638764?mt=8"><img class="image image-2" alt="App Store privacy policy link" src="images/guide_pp_apple_store.png" width="auto" height="auto"></a>
+ 			<p>kann man den Link (vorerst) nicht finden. Der Grund hierfür ist allerdings, dass Apple entschieden hat den Link da noch nicht zu zeigen, stattdessen erst beim Öffnen im iTunes Fenster:</p>
+ 			<a href="https://itunes.apple.com/us/app/wordbase-strategic-word-game/id777638764?mt=8"><img class="image image-2" alt="App Store Datenschutzerklärungslink" src="images/guide_pp_apple_store.png" width="auto" height="auto"></a>
 
-      <p>Now you're all ready. Let's do it. If you want you can read the <a href="http://www.iubenda.com/blog/2013/06/14/privacy-policy-for-ios-apps/">original longer post on the iubenda blog</a>.</p>
+      <p>Nun sind wir schon bereit. Bei Bedarf kann der längere, <a href="http://www.iubenda.com/blog/2013/06/14/privacy-policy-for-ios-apps/">originale Artikel auf dem iubenda Blog gelesen werden (EN)</a>.</p>
       </div>
       
-      <div class="pagination"><a href="play-guide.html"><i class="fa fa-angle-left" data-toggle="tooltip" data-placement="left" title="Guide for Android Developers"></i> <span>Guide for Android Developers</span></a> <a href="wp-guide.html"><i class="fa fa-angle-right" data-toggle="tooltip" data-placement="right" title="Guide for WP Developers"></i> <span>Guide for WP Developers</span></a></div>
+      <div class="pagination"><a href="play-guide.html"><i class="fa fa-angle-left" data-toggle="tooltip" data-placement="left" title="Anleitung für Android Entwickler"></i> <span>Anleitung für Android Entwickler</span></a> <a href="wp-guide.html"><i class="fa fa-angle-right" data-toggle="tooltip" data-placement="right" title="Anleitung für WP Entwickler"></i> <span>Anleitung für WP Entwickler</span></a></div>
 
-      <div class="goal"><p>The goal of this guide is to give you the right tools to make and place your privacy policy correctly in many languages. <br /><a href="https://github.com/s2imon/pp4pp">Submit a push request anytime</a>.</p><p>Read about <a href="http://s2imon.github.io/pp4pp">where else you should place the privacy policy.</a></p></div>
+      <div class="goal"><p>Das Ziel dieser Anleitung ist Entwickler in mehreren Sprachen über Ressourcen und Best-Practices zu informieren. <br /><a href="https://github.com/s2imon/pp4pp_de">Push requests sind wilkommen</a>.</p><p>Mehr darüber <a href="http://s2imon.github.io/pp4pp_de">lesen wo sonst eine Datenschutzerklärung hingehört.</a></p></div>
 
-      <p class="info"><a href="http://twitter.com/s2imon">Made by @s2imon</a> &middot; <a href="pp.html">Privacy Policy</a></p>
+      <p class="info"><a href="http://twitter.com/s2imon">Made by @s2imon</a> &middot; <a href="pp.html">Datenschutzerklärung</a></p>
     </div>
   </section>
   <section id="footer-cta">
     <div class="iubenda-cta clearfix">
-      <a class="cta" href="http://iubenda.com">Run your privacy policy on auto-pilot /w iubenda</a>
-      <p class="microcopy">hosted &middot; self-updating &middot; crafted by lawyers &middot; multi-language &middot; fast</p>
+      <a class="cta" href="http://iubenda.com">Datenschutzerklärung auf Autopilot mit iubenda</a>
+      <p class="microcopy">gehosted &middot; auto-aktualisierend &middot; von Anwälten gemacht &middot; mehrsprachig &middot; schnell</p>
     </div>
   </section>
 
