@@ -1,3 +1,5 @@
-# Want to help translating https://github.com/s2imon/pp4pp into German?
+Dies ist http://github.com/s2imon/pp4pp in Deutsch. 
 
-Let me know (@s2imon on Twitter)
+Hier findet sich die Webseite:
+
+http://s2imon.github.io/pp4pp_de
