@@ -9,7 +9,7 @@ http://s2imon.github.io/pp4pp_de
 
 ## Mindestanforderungen an mobile Datenschutzerklärungen
 
-- wer steck dahinter (Identit$t und Kontaktdetails);
+- wer steck dahinter (Identität und Kontaktdetails);
 - welche Kategorien von personenbezogenen Daten werden verarbeitet;
 - wiese ist die Datenverarbeitung notwendig (welchem Zweck dient sie);
 - werden die Daten an Dritte weitergegeben (keine generische Antwort, sondern eine genaue Beschreibung an wen welche Daten gehen);
@@ -25,4 +25,4 @@ Mit diesem Link gibt es sogar 10% <http://goo.gl/UO8VK7>.
 
 ## Hier findet man mich
 
-[Simon](http://twitter.com/s2imon) auf Twitter und ich blogge u.a <http://thegodfounder.com>.
+[Auf Twitter](http://twitter.com/s2imon) und ich blogge u.a <http://thegodfounder.com>.
